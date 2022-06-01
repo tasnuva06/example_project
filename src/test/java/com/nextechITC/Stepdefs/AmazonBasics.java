@@ -33,7 +33,7 @@ public class AmazonBasics {
 	}
 	@Then("^user will be redirected to Amazonbasics page$")
 	public void user_will_be_redirected_to_Amazonbasics_page() throws Throwable {
-	    
+	    System.out.println("inside @Then block");
 	}
 
 
